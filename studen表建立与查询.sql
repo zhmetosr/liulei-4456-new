@@ -3,7 +3,7 @@ CREATE TABLE student3 (                   --创建表 名为student3
    s_name VACHAR(10) NOT NULL,            --学生名字长度限制 以及格式
    s_age INT,                             --学生的年龄
    s_gender ENUM('男','女'),              -- 性别 男or女
-   class_id INT                           --班级id 
+   class_id INT                      
    );
    
 CREATE TABLE COURSE (
