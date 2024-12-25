@@ -1,6 +1,6 @@
 CREATE TABLE student3 (                   --创建表 名为student3
    s_id INT AUTO_INCREMENT PRIMARY KEY ,  -- 设立表id 自动加一 设为主键
-   s_name VACHAR(10) NOT NULL,            --学生名字长度限制 以及格式
+   s_name VARCHAR(10) NOT NULL,            --学生名字长度限制 以及格式
    s_age INT,                             --学生的年龄
    s_gender ENUM('男','女'),              -- 性别 男or女
    class_id INT                           --班级id 
